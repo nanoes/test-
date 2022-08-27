@@ -1,0 +1,16 @@
+Obtener utilizando una consulta SQL el listado de personas y su nivel de educación 
+para las personas que trabajan en departamentos en donde 
+la suma de los sueldos de los empleados que los integran es superior a 250000.
+
+IMPORTANTE: En el listado mostrar el apellido de la persona (lastname) y el nivel
+ de educacional (description de la tabla educationlevel). 
+ 
+ Mostrar los resultados ordenados por apellido.
+
+Tablas:
+APPX_employee (id, firstname, lastname, department_id, salary, educationlevel_id)
+APPX_department (id, department_name, department_city)
+APPX_educationlevel (id, description)
+
+Nota: Los nombres de tabla distinguen mayúsculas de minúsculas.
+ Escríbalos exactamente como se listan.

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+      Using an SQL query, the list of
+    people and their level of education for people who work in departments where
+    the sum of the salaries of the employees that comprise them is greater than
+    250,000.
+    <br />
+    IMPORTANT: In the list show the last name of the person (lastname) and the
+    educational level (description of the educationlevel table).
+    <br />
+      Order by lastname
+    <br />
+
+    Tablas:
+    <br />
+    APPX_employee (id, firstname,lastname, department_id, salary,
+    educationlevel_id)
+    <!-- ToDo: hacer la relacion en MySQL de que son index. -->
+    <!-- departmant_id es el index de appx_departament (id) -->
+    <!-- educationlevel_id es el index de appx_educationlevel -->
+    <br />
+
+    APPX_department (id,department_name, department_city)
+    <br />
+
+    APPX_educationlevel (id, description)
+    <br />
+
+    Nota: Los nombres de tabla distinguen mayúsculas de minúsculas. Escríbalos
+    exactamente como se listan.
+    <br />
+    <tr>
+      <th>Apellido</th>
+      <th>Nivel de educación</th>
+    </tr>
+    <br />
+
+    <code>
+      Tablas: APPX_employee (id, firstname,lastname, department_id, salary,
+      educationlevel_id) APPX_department (id, department_name, department_city)
+      APPX_educationlevel (id, description)
+    </code>
+  </body>
+</html>
