@@ -2,7 +2,7 @@
     for people who work in departments where
     the sum of the salaries of the employees that comprise them is greater than
     250,000. */
-
+/* Pregunta con group by y anidación. */
 use evalart;
 select
     lastname,
